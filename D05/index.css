@@ -1,0 +1,160 @@
+body {
+  background: #f0f2f5;
+}
+
+.ant-layout-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ant-layout-header h1 {
+  margin: 0 1rem 0 0;
+  color: #fff;
+  font-weight: bold;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.content {
+  background: #fff;
+  padding: 24px;
+  margin: 0 auto;
+  min-width: 1204px;
+
+}
+
+.align-center {
+  text-align: center;
+}
+
+.chart-container {
+  padding: 24px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.chart-inner {
+  width: 100%;
+  height: 350px;
+}
+
+.stats-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 3rem 1rem;
+}
+.last7{
+  width:50%;
+  float: right; 
+  margin-top: -400px;
+  position:relative; left:100px; 
+
+  
+}
+.first7{
+  width:50%;
+  position:relative; left:100px; 
+
+
+
+}
+.all14{
+  font-weight: bolder;
+  background-color: aliceblue;
+  background-image: url("https://www.cunard.com/content/dam/cunard/inventory-assets/ports/ATH/ATH.jpg.1614954538342.image.750.563.low.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 5%;
+}
+
+.buttons{
+  padding:2%;
+}
+/*https://lp-cms-production.imgix.net/2021-05/shutterstockRF_1193397715.jpg*/
+
+
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+.output{
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color:aliceblue;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  bottom:150px;
+  position: relative;
+}
+.airbnb{
+  position: right;
+}
